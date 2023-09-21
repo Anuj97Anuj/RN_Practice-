@@ -1,11 +1,13 @@
-import React, { useRef } from "react";
+import React from "react";
 // import Ref from "./hooks/useRef/useRef";
-import Form from "./components/Controlled/form";
+// import Post from "./hooks/useReducer/Post";
+import Context from "./hooks/useContext/Theme Switcher/App";
+// import "./hooks/useReducer/post.css";
 
 const App = () => {
   return (
     <div>
-      <Form />
+      <Context />
     </div>
   );
 };
